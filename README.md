@@ -1,6 +1,6 @@
 # Container
 
-## A simple system to manage an application
+## A simple system to manage a PHP application
 
 * * *
 
