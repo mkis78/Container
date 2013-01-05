@@ -4,7 +4,7 @@
 
 * * *
 
-**Container** Container allows to manage an application as an array of features (as a kind of Dependency injector).
+**Container** allows to manage an application as an array of features (as a kind of Dependency injector).
 
 * * *
 
