@@ -230,6 +230,11 @@
          * it retrive all the .php files with the given $pattern
          * and includes them in the application script
          * ex: $app->import(__DIR__."/lib/*"); // will include all php in the lib directory
+         * 
+         * $instance is used for anonymous function include, ex:
+         * $this->some = function() use($instance){...};
+         * this, for example, can be useful to add methods to application dynamically
+         */
          */
         public function import($pattern)
         {
