@@ -233,6 +233,7 @@
          */
         public function import($pattern)
         {
+            $instance = $this;
             $imports = glob($pattern.".php", GLOB_ERR);
 
             if (!empty($imports)) {
